@@ -1,0 +1,19 @@
+# build output and dependencies
+node_modules/
+build/
+dist/
+*.o
+*.obj
+*.exe
+*.log
+
+# secrets, never commit these
+.env
+*.pem
+*.key
+passwords.txt
+
+# large or temporary files
+*.zip
+*.iso
+*.tmp
